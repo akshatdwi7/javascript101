@@ -1,7 +1,7 @@
-let username = window.prompt("Enter your username")
 
-username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase()
-console.log(username)
-
-
-
+let username = "";
+while(username ===""){
+    username= window.prompt(` enter your suer name`)
+ 
+}
+console.log(`your username is${username}`) 
