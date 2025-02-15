@@ -69,3 +69,11 @@ avg=(...intergers)=>{
 
 let intergers = avg(23,43,43,435,86,5)
 console.log(`your average is $${intergers}`)
+
+
+const strings=(...titles)=>{
+return titles.join(" ")
+}
+
+let titles = strings("hello", "world", "python", "javascript")
+console.log(titles+" is a programming language")
