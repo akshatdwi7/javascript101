@@ -4,7 +4,7 @@
         2. network request 
         3. Interating with database */
     
-        hello(goodbye);
+        hello(leave);
         
 
         function hello(callback){
@@ -12,6 +12,9 @@
             callback();
         }
 
+        function leave(){
+            console.log("leave from here!");
+        }
         function goodbye(){
             console.log("goodbye");
         }
