@@ -1,0 +1,1 @@
+let username = window.prompt(" Hi my name is Adya what's yours? ")

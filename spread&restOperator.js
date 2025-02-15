@@ -38,3 +38,34 @@ const food4 = "soda"
 const food5 = "icecream"
 
 restpara(food1, food2,food3,food4,food5)
+// q- create a program to sum all the numbers in an array 
+
+sumarray=(...y)=>{
+    let total = 0;
+   for(sum of y){
+   total+= sum 
+
+   }
+   return total; 
+
+}
+
+const n = sumarray(43,4,89)
+console.log(    ` your total is $${n}`)
+
+
+
+// f(or average of the array 
+
+avg=(...intergers)=>{
+   let sum=0;
+  
+   for( let one of intergers){
+    sum+= one
+
+   }
+   return sum/intergers.length;
+}
+
+let intergers = avg(23,43,43,435,86,5)
+console.log(`your average is $${intergers}`)
