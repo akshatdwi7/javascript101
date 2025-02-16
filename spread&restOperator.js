@@ -72,7 +72,7 @@ console.log(`your average is $${intergers}`)
 
 
 const strings=(...titles)=>{
-return titles.join(" ")
+return titles.join(" ") // in this line we are joining the titles in a single string by using join method
 }
 
 let titles = strings("hello", "world", "python", "javascript")
