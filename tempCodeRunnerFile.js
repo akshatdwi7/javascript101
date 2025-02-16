@@ -1,1 +1,3 @@
- console.log(numbers)
+const display=(element)=>{
+// console.log(element)
+// }
