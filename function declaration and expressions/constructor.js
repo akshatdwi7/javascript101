@@ -17,3 +17,4 @@ let car3 = new Car("Ford", "Mustang", 2020, "Black");
 //console.log(car3);
 car2.drive();
 car1.drive();
+car3.drive();
