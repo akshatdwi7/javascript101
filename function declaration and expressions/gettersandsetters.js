@@ -38,3 +38,5 @@ rectangle = new Rectangle(1, 90);
 console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.area);
+
+// New example of this

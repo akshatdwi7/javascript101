@@ -12,5 +12,23 @@ b = 90;
 console.log(a, b);
 
 const colors = ["blue", "red", "green", "yellow"];
-const [...newworld] = colors;
+const [...newworld] = colors; //using rest parameters here
 console.log(newworld);
+
+//with the objects
+
+const p1 = {
+  name: "bro",
+  age: 34,
+  hobbie: "coding",
+  job: true,
+};
+const p2 = {
+  name: "noBro",
+  age: 21,
+  hobbie: "football",
+};
+
+const { name, age, hobbie, job = "false" } = p2;
+console.log(name);
+console.log(job);
