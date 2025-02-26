@@ -24,17 +24,17 @@ class Rectangle {
     }
   }
   get width() {
-    return this._width;
+    return `${this._width.toFixed(1)}cm`;
   }
   get height() {
-    return this._height;
+    return `${this._height.toFixed(1)}cm`;
   }
   get area() {
     return this._width * this._height;
   }
 }
 
-rectangle = new Rectangle(23, 90);
+rectangle = new Rectangle(1, 90);
 console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.area);
