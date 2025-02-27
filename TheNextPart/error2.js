@@ -16,3 +16,5 @@ try {
   console.log(error);
 }
 console.log("This is the end of the program");
+
+// for more check error.js
