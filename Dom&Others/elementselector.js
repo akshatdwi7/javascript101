@@ -9,3 +9,13 @@ Element selector is used to select the element from the DOM. There are different
 7. setAttribute() - This method is used to set the value of the specified attribute of the element.
 8. removeAttribute() - This method is used to remove the specified attribute from the element.
 */
+
+const ulElements = document.querySelectorAll("ul")
+
+ulElements.forEach(ulElement=>{
+    const firstChild = ulElement.firstElementChild;
+    firstChild.style.backgroundColor ="yellow"
+})
+
+
+// that's how we do the 
